@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  forecast:
+    image: redaamd/forecastapi
+    ports:
+      - "8081:8081"

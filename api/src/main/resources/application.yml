@@ -1,0 +1,25 @@
+doodle:
+  usepad: true
+  internalPadUrl: "http://host.docker.internal:9001/"
+  externalPadUrl: "http://host.docker.internal:9001/"
+  weatherServiceUrl: "http://host.docker.internal:8081/"
+  padApiKey: "19d89ca52bc0fa4f19d6325464d9d7a032649b9fa68c111514627081e2784b4a"
+  organizermail: "redaamidou@gmail.com"
+  tmpfolder: "/tmp/excelFiles"
+
+quarkus:
+  datasource:
+    db-kind: mysql  # Spécifiez mysql ici pour utiliser MySQL
+    username: tlc
+    password: tlc
+    jdbc:
+      url: jdbc:mysql://db:3306/tlc?useUnicode=true&serverTimezone=Europe/Paris  # Utiliser le protocole MySQL
+      driver: com.mysql.cj.jdbc.Driver  # Utiliser le driver MySQL
+  flyway:
+    migrate-at-start: true
+    baseline-on-migrate: true
+  mailer:
+    from: test@quarkus.io
+    host: host.docker.internal
+    port: 2525
+    mock: false
