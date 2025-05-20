@@ -134,7 +134,7 @@ Il repose sur une image Red Hat UBI minimaliste avec Java 17 et permet de lancer
 ##  Compiler le projet avec le bon packaging :
 
 ```bash
-./mvnw clean package -Dquarkus.package.type=fast-jar
+./mvnw clean package "-Dquarkus.package.type=fast-jar"
 ```
 
 ##  Construction de l'image Docker
