@@ -309,6 +309,10 @@ docker push redaamd/forecastapi
 
 L’image est maintenant disponible sur Docker Hub à l’adresse : [https://hub.docker.com/r/redaamd/forecastapi](https://hub.docker.com/r/redaamd/forecastapi)
 
+Et on peut verifier sur le compte DockerHub de Reda qu'elle existe :
+
+![DockerHub](images/DockerHub-forecast.png)
+
 ---
 
 ## 🧩 Intégration via Docker Compose
