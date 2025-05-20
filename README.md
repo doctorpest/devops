@@ -337,6 +337,10 @@ services:
 docker-compose up --detach
 ```
 
+On peut ensuite verifier que le service est bien lance sur docker desktop :
+
+![Forecast](images/docker-desktop-forecast.png)
+
 
 ## 🔌 Intégration avec l'API Quarkus
 
