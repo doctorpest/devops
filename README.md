@@ -167,6 +167,15 @@ Exécutez la commande suivante pour démarrer tous les services :
 docker-compose up --detach
 ```
 
+On peut voir sur Docker Desktop que tous les services sont bien lancés :
+
+![Docker Desktop](images/docker-desktop-quarkus.png)
+
+Et lorsqu’on visite le `localhost:8080`, voici ce que l’on voit dans le navigateur :
+
+![localhost 8080](images/localhost-8080.png)
+
+
 
 ---
 
